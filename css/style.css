@@ -1,0 +1,122 @@
+body{
+    font-family: 'Scope One', serif;
+}
+
+/* big-wrapper start */
+.big-wrapper{
+    width: 100%;
+    height:125vh;
+    background-image: url(../image/banner-1.png);
+    display: block;
+    background-size: cover;
+    background-position: center top;
+}
+
+/* navigation start */
+#my-navigation{
+    background: none;
+    border: 0;
+    color: white;
+}
+
+#my-navigation a{
+    color: #fff;
+}
+
+#my-navigation .navbar-toggle .icon-bar{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* banner start */
+.banner{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100PX;
+}
+
+span{
+    color: steelblue;
+}
+
+h5{
+    color: white;
+}
+
+.my-button{
+    color: steelblue;
+    background-color:white;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* frist-2-sec start */
+.first-2-sec{
+    margin: 30px auto;
+    /* padding: 30px 0; */
+    text-align: justify;
+}
+
+.first-2-sec img{
+    /* border: 2px solid gray; */
+}
+
+/* second-2 sec start */
+.second-2-sec{
+    padding: 30px 0;
+    text-align: justify;
+}
+
+
+/* one-sec start */
+.one-sec{
+    margin: 20px auto;
+    /* padding-top: 20px; */
+}
+
+/* three-image start */
+
+.three-image{
+    margin: 30px auto;
+    /* padding: 30px 0; */
+}
+
+.three-image p{
+    margin-top: 20px;
+}
+
+/* footer start */
+.footer{
+    margin: 30px auto;
+    /* padding: 30px 0; */
+}
+
+.fa{
+    font-size: large;
+    color: gray;
+    border: 1px double gray;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* media queries start */
+
+@media(max-width:992px){
+    .three-image .margin-top{
+        margin: 20px 0;
+    }
+
+    .first-2-sec p, h3{
+        padding-left: 12px;
+    }
+
+    .first-2-sec .color{
+        margin: 12px;
+    }
+}
